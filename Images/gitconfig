@@ -1,0 +1,16 @@
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[user]
+	name = Lucas Soares
+	
+[http]
+proxy = http://10.10.10.1:3128
+
+[https]
+proxy = https://10.10.10.1:3128
+
+
+
+	
